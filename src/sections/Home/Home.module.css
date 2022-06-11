@@ -5,7 +5,6 @@
 /* MOBILE SMALL */
 
 .Container {
-    /* background-color: blue; */
     width: 100%;
     height: 500px;
     align-items: center;
@@ -14,11 +13,52 @@
     position: relative;
 }
 
-/* .Slide {
-} */
+.Slide {
+    background-color: #364040;
+    height: 350px;
+    overflow: hidden;
+}
 
 .Image {
     width: 100%;
+}
+
+.Image2 {
+    width: 120%;
+    margin-left: -50px;
+}
+
+.Texture {
+    position: absolute;
+    width: 100%;
+    top: 210px;
+    left: 0;
+}
+
+.Start {
+    position: absolute;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    
+    top: 40px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; ;
+    width: 230px;
+    
+    color: #FFFFFF;
+}
+
+.Start > b {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #00E1FF;
 }
 
 .Character {
@@ -57,6 +97,13 @@
     right: 20px;
 }
 
+.Learn {
+    position: absolute;
+    top: 240px;
+    right: 0;
+    left: 0;
+}
+
 .Telegram {
     display: inline-block;
     width: 70px;
@@ -91,27 +138,65 @@
 
 /* MEDIUM MOBILE */
 
-@media only screen and (min-width: 321px) and (max-width: 374px) {
-    .Learn {
-        font-weight: 800;
-        font-size: 12px;
-        line-height: 12px;
-        bottom: 20px;
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .Slide {
+        background-color: #364040;
+        height: 400px;
+        overflow: hidden;
+    }
+    .Character {
+        position: absolute;
+        height: 360px;
+        top: 0px;
+        left: 5px;
+    }
+    .Title {
+        font-size: 65px;
+        line-height: 65px;
+        top: 25px;
+    }
+    .Play {
+        top: 155px;
     }
 }
 
 /* LARGE MOBILE */
 
-@media only screen and (min-width: 375px) and (max-width: 550px) {
-    .Learn {
-        font-weight: 800;
-        font-size: 12px;
-        line-height: 12px;
-        bottom: 20px;
+@media only screen and (min-width: 425px) and (max-width: 550px) {
+    .Slide {
+        background-color: #364040;
+        height: 480px;
+        overflow: hidden;
     }
-    .Discord {
-        width: 90px;
-        height: 90px;
+    .Character {
+        position: absolute;
+        height: 430px;
+        top: 0px;
+        left: 5px;
+    }
+    .Title {
+        font-size: 70px;
+        line-height: 70px;
+        top: 45px;
+    }
+    .Play {
+        top: 195px;
+    }
+    .Start {
+        font-size: 32px;
+        line-height: 38px;
+        top: 80px;
+        width: 290px;
+    }
+    .Start > b {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .Learn {
+        top: 290px;
+    }
+    .Texture {
+        top: 280px;
     }
 }
 
@@ -120,106 +205,15 @@
 /* /////////////// */
 
 @media only screen and (min-width: 550px) and (max-width: 1023px) {
-    .Container {
-        width: 100%;
-        max-height: 1000px;
-    }
-    .Logo {
-        width: 530px;
-        height: auto;
-        margin-top: 160px;
-    }
-    .SubTitle {
-        font-size: 25px;
-        line-height: 29px;
-        margin: 18px auto;
-    }
-    .Imagen {
-        display: none;
-    }
-    .ImagenTablet {
-        display: inline-block;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        width: auto;
-        height: 85%;
-    }
-    .Learn {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    .Discord {
-        width: 120px;
-        height: 120px;
-        right: 50px;
-        bottom: 50px;
-    }
+    
 }
 
 @media screen and (max-height: 600px) and (max-width: 767px) {
-    .Discord{
-        width: 90px;
-        height: 90px;
-    }
+   
 }
 
 /* PC SMALL */
 
 @media only screen and (min-width: 1024px) {
-    .Container {
-        width: 100%;
-        max-width: 1280px;
-        max-height: 800px;
-    }
-    .Logo {
-        width: auto;
-        height: 45px;
-        margin-top: 14%;
-    }
-    .SubTitle {
-        font-size: 21px;
-        line-height: 29px;
-        margin: 18px auto;
-    }
-    .Imagen {
-        display: none;
-    }
-    .ImagenTablet {
-        display: block;
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        height: 85%;
-    }
-    .CarpinchoBlanco {
-        display: block;
-        position: absolute;
-        right: 0px;
-        bottom: -10px;
-        height: 85%;
-    }
-    .Learn {
-        display: none;
-    }
-    .LearnPC {
-        display: block;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 24px;
-        text-align: center;
-        text-transform: uppercase;
-
-        margin: 70px auto;
-        color: #FFFFFF;
-        width: 230px;
-    }
-    .Discord {
-        width: 100px;
-        height: 100px;
-        right: 40px;
-        bottom: 40px;
-    }
+    
 }
