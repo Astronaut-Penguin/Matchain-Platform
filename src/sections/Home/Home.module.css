@@ -1,0 +1,225 @@
+/* ////// */
+/* STYLES */
+/* ////// */
+
+/* MOBILE SMALL */
+
+.Container {
+    /* background-color: blue; */
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+}
+
+/* .Slide {
+} */
+
+.Image {
+    width: 100%;
+}
+
+.Character {
+    position: absolute;
+    height: 320px;
+    top: -10px;
+    left: 5px;
+}
+
+.Shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0px 45px 25px -20px #ffffff, inset 0px -45px 25px -20px #ffffff; 
+    box-shadow: inset 0px 45px 25px -20px #ffffff, inset 0px -45px 25px -20px #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.Title {
+    position: absolute;
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 55px;
+    top: 10px;
+    right: 15px;
+
+    color: #ffffff;
+}
+
+.Play {
+    position: absolute;
+    top: 125px;
+    right: 20px;
+}
+
+.Telegram {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    border-radius: 100%;
+    z-index: 9999;
+
+    background: #00E1FF;
+    background-image: url('./assets/telegramLogo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.8); 
+}
+
+.Telegram:hover {
+    background: #27343C;;
+    background-image: url('./assets/telegramHover.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+/***********/
+/* 	VIEWS  */
+/***********/
+
+/* MEDIUM MOBILE */
+
+@media only screen and (min-width: 321px) and (max-width: 374px) {
+    .Learn {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 12px;
+        bottom: 20px;
+    }
+}
+
+/* LARGE MOBILE */
+
+@media only screen and (min-width: 375px) and (max-width: 550px) {
+    .Learn {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 12px;
+        bottom: 20px;
+    }
+    .Discord {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* /////////////// */
+/*      TABLET     */
+/* /////////////// */
+
+@media only screen and (min-width: 550px) and (max-width: 1023px) {
+    .Container {
+        width: 100%;
+        max-height: 1000px;
+    }
+    .Logo {
+        width: 530px;
+        height: auto;
+        margin-top: 160px;
+    }
+    .SubTitle {
+        font-size: 25px;
+        line-height: 29px;
+        margin: 18px auto;
+    }
+    .Imagen {
+        display: none;
+    }
+    .ImagenTablet {
+        display: inline-block;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: auto;
+        height: 85%;
+    }
+    .Learn {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .Discord {
+        width: 120px;
+        height: 120px;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-height: 600px) and (max-width: 767px) {
+    .Discord{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* PC SMALL */
+
+@media only screen and (min-width: 1024px) {
+    .Container {
+        width: 100%;
+        max-width: 1280px;
+        max-height: 800px;
+    }
+    .Logo {
+        width: auto;
+        height: 45px;
+        margin-top: 14%;
+    }
+    .SubTitle {
+        font-size: 21px;
+        line-height: 29px;
+        margin: 18px auto;
+    }
+    .Imagen {
+        display: none;
+    }
+    .ImagenTablet {
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 85%;
+    }
+    .CarpinchoBlanco {
+        display: block;
+        position: absolute;
+        right: 0px;
+        bottom: -10px;
+        height: 85%;
+    }
+    .Learn {
+        display: none;
+    }
+    .LearnPC {
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+
+        margin: 70px auto;
+        color: #FFFFFF;
+        width: 230px;
+    }
+    .Discord {
+        width: 100px;
+        height: 100px;
+        right: 40px;
+        bottom: 40px;
+    }
+}
