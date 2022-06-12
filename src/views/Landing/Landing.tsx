@@ -5,19 +5,19 @@ import React from "react";
 import styles from "./Landing.module.css";
 
 // SECTIONS IMPORTS
-import { Home, Fighters } from "../../sections";
+import { Home, Fighters, Education } from "../../sections";
 
 const Landing: React.FC = () => {
   ////////////
   // RENDER //
   ////////////
   return (
-    <>
-        <Home />
-        <Fighters />
-        {/* <FooterV2 /> */}
-        {/* <Footer /> */}
-    </>
+    <section className={styles.Container}>
+      <Home />
+      <Fighters />
+      <Education />
+      {/* <Footer /> */}
+    </section>
   );
 };
 

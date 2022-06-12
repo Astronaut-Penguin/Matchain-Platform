@@ -62,8 +62,8 @@
     position: absolute;
     width: 320px;
     height: 180px;
-    -webkit-box-shadow: inset 0px 45px 25px -20px #ffffff, inset 0px -45px 25px -20px #ffffff; 
-    box-shadow: inset 0px 45px 25px -20px #ffffff, inset 0px -45px 25px -20px #ffffff;
+    -webkit-box-shadow: inset 0px 45px 25px -20px #E6E6E6, inset 0px -45px 25px -20px #E6E6E6;
+    box-shadow: inset 0px 45px 25px -20px #E6E6E6, inset 0px -45px 25px -20px #E6E6E6;
     top: 198px;
     left: 0; 
     right: 0; 
