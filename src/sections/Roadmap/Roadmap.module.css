@@ -6,9 +6,7 @@
 
 .Container {
     width: 100%;
-    text-align: center;
-    align-items: center;
-    height: 550px;
+    height: 400px;
     position: relative;
 }
 
@@ -18,47 +16,67 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 43px;
-
+    text-align: center;
     color: #27343C;
 }
 
-.Subtitle {
+.RoadMapContainer {
+    display: flex;
+    width: 220px;
+    flex-direction: column;
+    margin: 0 auto;
+
+    border-left: 5px solid #27343C;
+}
+
+.Item {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.Ball {
+    width: 26px;
+    height: 26px;
+
+    position: absolute;
+    left: -15px;
+    border-radius: 100px;
+    background: #27343C;
+}
+
+.Button {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #27343C;
+
+    margin: 0px;
+    margin-left: 25px;
+    border: none;
+    background: none;
+}
+
+.Button:hover {
+    text-decoration: none;
+}
+
+.Button:not(.nohover):hover {  
+    color: #00E1FF;
+}
+
+.List {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 18px;
-    text-align: center;
 
-    width: 270px;
-    margin: 0 auto;
     color: #27343C;
-}
-
-.Video {
-    width: 100%;
-    margin: 40px auto 20px auto;
-}
-
-/***********/
-/* 	VIEWS  */
-/***********/
-
-/* MEDIUM MOBILE */
-
-@media only screen and (min-width: 375px) and (max-width: 424px) {
-    .Container {
-        height: 600px;
-    }
-}
-
-/* LARGE MOBILE */
-
-@media only screen and (min-width: 425px) and (max-width: 550px) {
-    .Title {
-        font-size: 40px;
-    }
-    .Container {
-        height: 630px;
-    }
+    list-style: none; 
+    padding-left: 0px; 
 }
