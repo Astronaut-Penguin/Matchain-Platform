@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./Landing.module.css";
 
 // SECTIONS IMPORTS
-import { Home } from "../../sections";
+import { Home, Fighters } from "../../sections";
 
 const Landing: React.FC = () => {
   ////////////
@@ -14,7 +14,7 @@ const Landing: React.FC = () => {
   return (
     <>
         <Home />
-        {/* <BuyCards /> */}
+        <Fighters />
         {/* <FooterV2 /> */}
         {/* <Footer /> */}
     </>
