@@ -10,7 +10,6 @@
 
 # production
 /build
-meta.json
 
 # misc
 .DS_Store
@@ -18,18 +17,7 @@ meta.json
 .env.development.local
 .env.test.local
 .env.production.local
-.env
-.eslintcache
-.vscode
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-public/assets/Imagenes/ImagenDomingo.jpg
-public/assets/Imagenes/ImagenJueves.jpg
-public/assets/Imagenes/ImagenLunes.jpg
-public/assets/Imagenes/ImagenMartes.jpg
-public/assets/Imagenes/ImagenMiercoles.jpg
-public/assets/Imagenes/ImagenSabado.jpg
-public/assets/Imagenes/ImagenViernes.jpg
