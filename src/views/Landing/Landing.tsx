@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./Landing.module.css";
 
 // SECTIONS IMPORTS
-import { Home, Fighters, Education, Roadmap, About } from "../../sections";
+import { Home, Fighters, Education, Roadmap, About, Team } from "../../sections";
 
 const Landing: React.FC = () => {
   ////////////
@@ -18,6 +18,7 @@ const Landing: React.FC = () => {
       <Education />
       <Roadmap />
       <About />
+      <Team />
     </section>
   );
 };
