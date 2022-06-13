@@ -20,7 +20,7 @@ const Fighters: React.FC<FightersProps> = () => {
   // RENDER //
   ////////////
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='fighters'>
         <h2 className={styles.Title}>FIGHTERS</h2>
         <h3 className={styles.New}>NEW GAME!</h3>
         <h3 className={styles.Subtitle}>

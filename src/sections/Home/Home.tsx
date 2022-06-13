@@ -30,9 +30,8 @@ const Home: React.FC<HomeProps> = () => {
   // RENDER //
   ////////////
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='home'>
       <Swiper
-      
         pagination={{
           el: '.my-custom-pagination-div',
           clickable: true,
@@ -64,7 +63,7 @@ const Home: React.FC<HomeProps> = () => {
         </SwiperSlide>            
       </Swiper>
 
-      <div className="my-custom-pagination-div" />
+      <div className="my-custom-pagination-div" style={{marginTop: '20px'}}/>
       <a
         title="Telegram"
         href="https://telegram.com/"

@@ -31,7 +31,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    top: 35px;
+    top: 45px;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -49,7 +49,7 @@
     line-height: 18px;
     text-align: center;
 
-    margin: 0 auto;
+    margin: 27px auto;
     color: #27343C;
 }
 
