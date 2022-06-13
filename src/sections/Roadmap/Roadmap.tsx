@@ -14,17 +14,25 @@ type RoadmapProps = {
 
 const Roadmap: React.FC<RoadmapProps> = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen2, setIsOpen2] = React.useState(false);
+  const [isOpen3, setIsOpen3] = React.useState(false);
+  const [isOpen4, setIsOpen4] = React.useState(false);
 
   ////////////
   // RENDER //
   ////////////
+
   return (
     <div className={styles.Container}>
         <h2 className={styles.Title}>ROADMAP</h2>
 
         <div className={styles.RoadMapContainer}>
             <div className={styles.Item} style={{ marginTop: "0" }}>
-            <div className={styles.Ball} />
+                {isOpen ? (
+                    <div className={styles.SelectedBall} />
+                ) : (
+                    <div className={styles.Ball} />
+                )}
                 <a onClick={() => setIsOpen(!isOpen)} className={styles.Button}>
                     LOREM
                     <Collapse isOpen={isOpen}>
@@ -38,18 +46,59 @@ const Roadmap: React.FC<RoadmapProps> = () => {
             </div>
 
             <div className={styles.Item}>
-                <div className={styles.Ball} />
-                <p className={styles.Button}>LOREM</p>
+                {isOpen2 ? (
+                    <div className={styles.SelectedBall} />
+                ) : (
+                    <div className={styles.Ball} />
+                )}
+                <a onClick={() => setIsOpen2(!isOpen2)} className={styles.Button}>
+                    LOREM
+                    <Collapse isOpen={isOpen2}>
+                        <ol className={styles.List}>
+                            <li>
+                                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                            </li>
+                        </ol>
+                    </Collapse>
+                </a>
             </div>
 
             <div className={styles.Item}>
-                <div className={styles.Ball} />
-                <p className={styles.Button}>LOREM</p>
+                {isOpen3 ? (
+                    <div className={styles.SelectedBall} />
+                ) : (
+                    <div className={styles.Ball} />
+                )}
+                <a onClick={() => setIsOpen3(!isOpen3)} className={styles.Button}>
+                    LOREM
+                    <Collapse isOpen={isOpen3}>
+                        <ol className={styles.List}>
+                            <li>
+                                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                            </li>
+                        </ol>
+                    </Collapse>
+                </a>
             </div>
+        </div>
 
-            <div className={styles.Item} style={{ marginBottom: "0" }}>
-                <div className={styles.Ball} />
-                <p className={styles.Button}>LOREM</p>
+        <div className={styles.LastItem}>
+            <div className={styles.Item} style={{ marginLeft: "4px", marginTop: '0px' }}>
+                {isOpen4 ? (
+                    <div className={styles.SelectedBall} />
+                ) : (
+                    <div className={styles.Ball} />
+                )}
+                <a onClick={() => setIsOpen4(!isOpen4)} className={styles.Button}>
+                    LOREM
+                    <Collapse isOpen={isOpen4}>
+                        <ol className={styles.List}>
+                            <li>
+                                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                            </li>
+                        </ol>
+                    </Collapse>
+                </a>
             </div>
         </div>
     </div>
