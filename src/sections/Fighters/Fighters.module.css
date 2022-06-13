@@ -86,8 +86,8 @@
     font-size: 22px;
     line-height: 27px;
 
-    width: 240px;
-    margin-top: 25px;
+    display: block;
+    margin: 20px auto 0 auto;
     color: #00E1FF;
 }
 
@@ -119,10 +119,6 @@
         height: 210px;
         top: 200px;
     }
-    .Demo {
-        width: 280px;
-        margin-top: 25px;
-    }
 }
 
 /* LARGE MOBILE */
@@ -138,9 +134,5 @@
         width: 425px;
         height: 235px;
         top: 200px;
-    }
-    .Demo {
-        width: 400px;
-        margin-top: 35px;
     }
 }
