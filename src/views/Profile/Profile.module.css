@@ -52,7 +52,7 @@
 }
 
 .NameGray {
-    margin-top: -82px;
+    margin-top: -78px;
 }
 
 .Button {
@@ -68,4 +68,46 @@
     overflow: hidden;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+.Banners {
+    width: 180px;
+    margin: 15px auto 0 auto;
+}
+
+.Banner {
+    width: 180px;
+    margin: 5px auto 5px auto;
+}
+
+.CancelButton {
+    height: 50px;
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #27343C;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Remember {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    width: 290px;
+    margin: 10px auto 10px auto;
+    color: #27343C;
 }
