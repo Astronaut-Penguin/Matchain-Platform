@@ -14,7 +14,6 @@ import Banner3 from './assets/banner3.png';
 
 // IMPORT BOOTSTRAP
 import { Form, Modal } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './bootstrap.css';
 
 // IMPORT COMPONENTS
