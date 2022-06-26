@@ -1,7 +1,6 @@
 {
-  "name": "my-app",
+  "name": "matchain-platform",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@blueprintjs/core": "^4.5.0",
     "@egjs/react-flicking": "^4.9.0",
