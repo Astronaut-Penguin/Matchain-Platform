@@ -6,7 +6,7 @@
 
 .Container {
     width: 100%;
-    min-height: 300px;
+    min-height: 320px;
     position: relative;
 }
 
@@ -25,7 +25,7 @@
     width: 220px;
     min-height: 138px;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
 
     border-left: 4px solid #27343C;
 }
