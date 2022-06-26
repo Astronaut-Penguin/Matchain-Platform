@@ -23,7 +23,7 @@ const Roadmap: React.FC<RoadmapProps> = () => {
   ////////////
 
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='roadmap'>
         <h2 className={styles.Title}>ROADMAP</h2>
 
         <div className={styles.RoadMapContainer}>

@@ -20,7 +20,7 @@ const Education: React.FC<EducationProps> = () => {
   // RENDER //
   ////////////
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='education'>
         <h2 className={styles.Title}>EDUCATION</h2>
         <h3 className={styles.Subtitle}>
             In Matchain, you can learn how to make webapps and mobile video games. 

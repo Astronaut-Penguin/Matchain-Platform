@@ -13,7 +13,7 @@ const About: React.FC<AboutProps> = () => {
   // RENDER //
   ////////////
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='about'>
         <h2 className={styles.Title}>ABOUT US</h2>
         <div className={styles.BallContainer}>
             <div className={styles.Ball}></div>

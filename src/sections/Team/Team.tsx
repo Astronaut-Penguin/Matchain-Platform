@@ -24,7 +24,7 @@ const Team: React.FC<TeamProps> = () => {
   // RENDER //
   ////////////
   return (
-    <div className={styles.Container}>
+    <div className={styles.Container} id='team'>
         <h2 className={styles.Title}>TEAM</h2>
         <div className={styles.CardContainer}>
             <TeamCard name={'Penguin'} job={'COFOUNDER'} image={Penguin} />
