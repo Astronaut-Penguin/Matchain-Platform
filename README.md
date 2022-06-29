@@ -6,5 +6,5 @@ Main platform repo for the matchain TON dApp
 
 ## NVM use 16.13.0
 
-# Link to test deploy
+# Link to test deploy, please enter from a mobile or resize screen, mobile first in progress
 https://matchain-platform.netlify.app/
