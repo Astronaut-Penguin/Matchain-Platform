@@ -136,3 +136,32 @@
         top: 200px;
     }
 }
+
+/***************/
+/* TABLET MODE */
+/***************/
+
+/* TABLET */
+
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+}
+
+/********/
+/* 	PC  */
+/********/
+
+/* PC SMALL */
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 900px) {
+}
+
+/* PC */
+
+@media only screen and (min-width: 1200px) {
+}
