@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./Landing.module.css";
 
 // SECTIONS IMPORTS
-import { Header, Home, Fighters, Education, Roadmap, About, Team, Footer } from "../../sections";
+import { Header, Home, Midpage, Education, Roadmap, About, Team, Footer } from "../../sections";
 
 const Landing: React.FC = () => {
   ////////////
@@ -15,7 +15,7 @@ const Landing: React.FC = () => {
     <section className={styles.Container}>
       <Header />
       <Home />
-      <Fighters />
+      <Midpage />
       <Education />
       <Roadmap />
       <About />

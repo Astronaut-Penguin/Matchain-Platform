@@ -3,136 +3,122 @@
 /***********/
 
 /* MOBILE SMALL */
-@media only screen and (max-width: 375px) {
-	.Container {
-		width: 100%;
-		height: 550px;
-		align-items: center;
-		text-align: center;
-		padding-top: 130px;
-		position: relative;
-	}
+.Container {
+	width: 100%;
+	height: 550px;
+	align-items: center;
+	text-align: center;
+	padding-top: 130px;
+	position: relative;
+}
 
-	.Slide {
-		background-color: #364040;
-		height: 350px;
-		overflow: hidden;
-	}
+.Slide {
+	background-color: #364040;
+	height: 350px;
+	overflow: hidden;
+}
 
-	.Image {
-		width: 100%;
-	}
+.Image {
+	width: 100%;
+}
 
-	.Image2 {
-		width: 120%;
-		margin-left: -50px;
-	}
+.Image2 {
+	width: 120%;
+	margin-left: -50px;
+}
 
-	.Texture {
-		position: absolute;
-		width: 100%;
-		top: 210px;
-		left: 0;
-	}
+.Texture {
+	position: absolute;
+	width: 100%;
+	top: 210px;
+	left: 0;
+}
 
-	.Start {
-		position: absolute;
-		font-family: 'Russo One';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 26px;
-		line-height: 32px;
+.Start {
+	position: absolute;
+	font-family: 'Russo One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
 
-		top: 60px;
-		left: 0;
-		right: 0;
-		margin-left: auto;
-		margin-right: auto;
-		width: 230px;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 230px;
 
-		color: #ffffff;
-	}
+	color: #ffffff;
+}
 
-	.Start > b {
-		font-weight: 400;
-		font-size: 40px;
-		line-height: 48px;
+.Start > b {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
 
-		color: #00e1ff;
-	}
+	color: #00e1ff;
+}
 
-	.Character {
-		position: absolute;
-		height: 320px;
-		top: -10px;
-		left: 5px;
-	}
+.Character {
+	position: absolute;
+	height: 320px;
+	top: -10px;
+	left: 5px;
+}
 
-	.Shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		-webkit-box-shadow: inset 0px 45px 25px -20px #e6e6e6,
-			inset 0px -45px 25px -20px #e6e6e6;
-		box-shadow: inset 0px 45px 25px -20px #e6e6e6,
-			inset 0px -45px 25px -20px #e6e6e6;
-		top: 0;
-		left: 0;
-	}
+.Title {
+	position: absolute;
+	font-family: 'VT323';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 55px;
+	line-height: 55px;
+	top: 60px;
+	right: 15px;
 
-	.Title {
-		position: absolute;
-		font-family: 'VT323';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 55px;
-		line-height: 55px;
-		top: 60px;
-		right: 15px;
+	color: #ffffff;
+}
 
-		color: #ffffff;
-	}
+.Play {
+	position: absolute;
+	top: 125px;
+	right: 20px;
+}
 
-	.Play {
-		position: absolute;
-		top: 125px;
-		right: 20px;
-	}
+.Learn {
+	position: absolute;
+	top: 240px;
+	right: 0;
+	left: 0;
+}
 
-	.Learn {
-		position: absolute;
-		top: 240px;
-		right: 0;
-		left: 0;
-	}
+.Telegram {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	right: 20px;
+	bottom: 60px;
+	border-radius: 100%;
+	z-index: 9999;
 
-	.Telegram {
-		display: inline-block;
-		width: 70px;
-		height: 70px;
-		position: fixed;
-		right: 20px;
-		bottom: 60px;
-		border-radius: 100%;
-		z-index: 9999;
+	background: #00e1ff;
+	background-image: url('./assets/telegramLogo.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 55%;
 
-		background: #00e1ff;
-		background-image: url('./assets/telegramLogo.svg');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 55%;
+	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
+}
 
-		box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
-		-webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
-	}
-
-	.Telegram:hover {
-		background: #27343c;
-		background-image: url('./assets/telegramHover.svg');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 55%;
-	}
+.Telegram:hover {
+	background: #27343c;
+	background-image: url('./assets/telegramHover.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 55%;
 }
 
 /* MEDIUM MOBILE */
@@ -209,128 +195,23 @@
 /*      TABLET     */
 /* /////////////// */
 
-@media only screen and (min-width: 550px) and (max-width: 1023px) {
-}
-
-@media screen and (max-height: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 550px) and (max-width: 1081px) {
+    .Container {
+		height: 100%;
+        position: relative;
+	}
+    .Image{
+        height: 100%;
+    }
+    .Image2{
+        height: 100%;
+    }
+	.Texture{
+		height: 40%;
+	}
 }
 
 /* PC */
 
 @media only screen and (min-width: 1024px) {
-	.Container {
-		width: 100%;
-		height: 800px;
-		align-items: center;
-		text-align: center;
-		padding-top: 130px;
-		position: relative;
-	}
-
-	.Slide {
-		background-color: #364040;
-		height: 200px;
-        overflow: visible;
-	}
-
-	.Image {
-		width: 100%;
-	}
-
-	.Image2 {
-        position: relative;
-        width: 1287px;
-        height: 769px;
-        opacity: 0.62;
-	}
-
-	.Texture {
-		position: relative;
-		width: 100%;
-		top: 210px;
-		left: 0;
-	}
-
-	.Start {
-		position: absolute;
-		font-family: 'Russo One';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 26px;
-		line-height: 32px;
-		top: 60px;
-		left: 0;
-		right: 0;
-		margin-left: auto;
-		margin-right: auto;
-		width: 230px;
-		color: #ffffff;
-	}
-
-	.Start > b {
-		font-weight: 400;
-		font-size: 40px;
-		line-height: 48px;
-		color: #00e1ff;
-	}
-
-	.Character {
-		position: absolute;
-		height: 320px;
-		top: -10px;
-		left: 5px;
-	}
-    
-
-	.Title {
-		position: absolute;
-		font-family: 'VT323';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 55px;
-		line-height: 55px;
-		top: 60px;
-		right: 15px;
-		color: #ffffff;
-	}
-
-	.Play {
-		position: absolute;
-		top: 125px;
-		right: 20px;
-	}
-
-	.Learn {
-		position: absolute;
-		top: 240px;
-		right: 0;
-		left: 0;
-	}
-
-	.Telegram {
-		display: inline-block;
-		width: 70px;
-		height: 70px;
-		position: fixed;
-		right: 20px;
-		bottom: 60px;
-		border-radius: 100%;
-		z-index: 9999;
-		background: #00e1ff;
-		background-image: url('./assets/telegramLogo.svg');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 55%;
-
-		box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
-		-webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.8);
-	}
-
-	.Telegram:hover {
-		background: #27343c;
-		background-image: url('./assets/telegramHover.svg');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: 55%;
-	}
 }

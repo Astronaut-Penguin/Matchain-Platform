@@ -2,32 +2,32 @@
 import React from "react";
 
 // IMPORT STYLES
-import styles from "./Fighters.module.css";
+import styles from "./Midpage.module.css";
 
 // IMPORT IMAGES
 import Image from "./assets/image.png";
+import Character from "./assets/character.gif";
 
 // IMPORT COMPONENT
 import BlueButton from "../../components/BlueButton/BlueButton";
 
 
-type FightersProps = {
+type MidpageProps = {
   style?: React.CSSProperties;
 };
 
-const Fighters: React.FC<FightersProps> = () => {
+export const Midpage: React.FC<MidpageProps> = () => {
   ////////////
   // RENDER //
   ////////////
   return (
     <div className={styles.Container} id='fighters'>
-        <h2 className={styles.Title}>FIGHTERS</h2>
+        <h2 className={styles.Title}>WORKAHOLIC</h2>
         <h3 className={styles.New}>NEW GAME!</h3>
         <h3 className={styles.Subtitle}>
-            Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+            Boredom may be a daily thing in some works, but... have you worked on customer reception on a diner?
         </h3>
 
-        {/* EJEMPLO DE COMO DEBE QUEDAR EL VIDEO - UNICAMENTE TENGO LA FOTO EN ESTE MOMENTO */}
         <img src={Image} className={styles.Video} />
         <div className={styles.Shadow}></div>
 
@@ -43,4 +43,4 @@ const Fighters: React.FC<FightersProps> = () => {
   );
 };
 
-export default Fighters;
+export default Midpage;

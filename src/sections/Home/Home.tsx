@@ -14,7 +14,7 @@ import { Pagination, Autoplay } from "swiper";
 // IMPORT IMAGE
 import Slide1 from "./assets/slide1.png";
 import Slide2 from "./assets/slide2.png";
-import Character from "./assets/character.png";
+import Character from "./assets/character.gif";
 import Texture from "./assets/texture.png";
 
 // IMPORT COMPONENT
@@ -53,9 +53,8 @@ const Home: React.FC<HomeProps> = () => {
           
         <SwiperSlide className={styles.Slide}>
           <img src={Slide1} className={styles.Image} />
-          <h2 className={styles.Title}>FIGHTERS</h2>
+          <h2 className={styles.Title}>NARRATIVE MINIGAME</h2>
           <img src={Character} className={styles.Character} />
-          <div className={styles.Shadow}></div>
           <div className={styles.Play}>
               <BlueButton text={"PLAY NOW"} />
           </div>
