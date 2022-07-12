@@ -53,7 +53,7 @@ const Home: React.FC<HomeProps> = () => {
           
         <SwiperSlide className={styles.Slide}>
           <img src={Slide1} className={styles.Image} />
-          <h2 className={styles.Title}>NARRATIVE MINIGAME</h2>
+          <h2 className={styles.Title}>WORKAHOLIC</h2>
           <img src={Character} className={styles.Character} />
           <div className={styles.Play}>
               <BlueButton text={"PLAY NOW"} />

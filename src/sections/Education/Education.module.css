@@ -69,25 +69,25 @@
 
 /* TABLET */
 
-@media only screen and (min-width: 480px) and (max-width: 899px) {
+@media only screen and (min-width: 480px) {
+    .Container {
+        height: 100%;
+        position: relative;
+    }
+
+    .Subtitle {
+        width: 65%;;
+    }
+
 }
 
-@media only screen and (min-width: 768px) and (max-width: 899px) {
-}
+/* /////////////// */
+/*        PC     */
+/* /////////////// */
 
-/********/
-/* 	PC  */
-/********/
-
-/* PC SMALL */
-
-@media only screen and (min-width: 900px) and (max-width: 1199px) {
-}
-
-@media only screen and (min-width: 900px) {
-}
-
-/* PC */
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
+    .Video {
+        height: 50rem;
+        margin: 40px auto 20px auto;
+    }
 }

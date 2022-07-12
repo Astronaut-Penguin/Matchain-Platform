@@ -195,7 +195,50 @@
 /*      TABLET     */
 /* /////////////// */
 
-@media only screen and (min-width: 550px) and (max-width: 1081px) {
+@media only screen and (min-width: 550px) and (max-width: 1024px) {
+    .Container {
+		height: 50rem;
+        position: relative;
+	}
+    .Image{
+        height: 100%;
+    }
+    .Image2{
+        height: 100%;
+    }
+	.Texture{
+		padding-top: 11rem;
+		height: 40%;
+	}
+	
+	.Title {
+		padding-top: 11rem;
+		padding-right: 25%;
+	}
+	.Character {
+		padding-top: 11rem;
+	}
+
+	.Play {
+		padding-top: 11rem;
+		padding-right: 28%;
+	}
+
+	.Start {
+		font-size: 28px;
+		padding-top: 10rem;
+	}
+	.Learn {
+		padding-top: 10rem;
+	}
+}
+
+
+/* /////////////// */
+/*      TABLET     */
+/* /////////////// */
+
+@media only screen and (min-width: 1024px) {
     .Container {
 		height: 100%;
         position: relative;
@@ -207,11 +250,37 @@
         height: 100%;
     }
 	.Texture{
+		padding-top: 15%;
 		height: 40%;
 	}
-}
+	
+	.Title {
+		font-size: 100px;
+		padding-top: 15%;
+		width: 100%;
+	}
+	.Character {
+		padding-top: 15%;
+		padding-left: 10%;
+	}
+	.Start > b {
+		font-size: 100px;
+		padding-top: 15%;
+		width: 100%;
+	}
+	.Play {
+		margin-top: 5%;
+		padding-top: 15%;
+		width: 100%;
+	}
 
-/* PC */
-
-@media only screen and (min-width: 1024px) {
+	.Start {
+		font-size: 100px;
+		padding-top: 15%;
+		width: 100%;
+	}
+	.Learn {
+		padding-top: 15%;
+		width: 100%;
+	}
 }
