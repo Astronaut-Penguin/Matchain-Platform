@@ -134,17 +134,18 @@
 	}
 	.Character {
 		position: absolute;
-		height: 360px;
+		height: 300px;
 		top: 0px;
-		left: 5px;
+		left: -85px;
 	}
 	.Title {
-		font-size: 65px;
+		font-size: 55px;
 		line-height: 65px;
 		top: 75px;
 	}
 	.Play {
 		top: 155px;
+		left: 145px;
 	}
 }
 
