@@ -46,7 +46,6 @@ const Home: React.FC<HomeProps> = () => {
           <img src={Slide2} className={styles.Image2} />
           <img src={Texture} className={styles.Texture} />
           <h2 className={styles.Start}>START YOUR <b>OWN GAME</b> NOW</h2>
-          <div className={styles.Shadow}></div>
           <div className={styles.Learn}>
               <BlueButton text={"LEARN NOW"} />
           </div>
