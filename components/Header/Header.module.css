@@ -5,7 +5,7 @@
 /* MOBILE */
 
 .Container {
-    display: flex;
+    display: inline;
     overflow: hidden;
     z-index: 999;
     background-color: #E6E6E6;
@@ -13,11 +13,24 @@
     box-shadow: 0px 10px 15px 5px #E6E6E6;
 }
 
+.ImageContainer{
+    justify-items:end;
+}
+
+.NavContainer {
+    width: 100%;
+}
+
+.Nav{
+    align-content: center;
+}
+
+
 .Logo {
-    margin: 2% 2% 2% 2%;
+    margin: 10px 2% 2% 2%;
 }
 .Profile {
-    margin-left: 10px;
+    margin-left: 100%;
 }
 
 .Panel {
