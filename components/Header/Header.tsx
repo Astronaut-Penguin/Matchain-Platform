@@ -24,18 +24,20 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.ImageContainer}>
-        <Image
-          src="/logo512.png"
-          width={60}
-          height={60}
-          className={styles.Logo}
-        />
-        <Image
-          src="/logo512.png"
-          width={60}
-          height={60}
-          className={styles.Profile}
-        />
+        <div className={styles.Logo}>
+          <Image
+            src="/logo512.png"
+            width={60}
+            height={60}
+          />
+        </div>
+        <div className={styles.Profile}>
+          <Image
+            src="/logo512.png"
+            width={60}
+            height={60}
+          />
+        </div>
       </div>
       <div className={styles.NavContainer}>
         <Navbar className={styles.Nav}>
