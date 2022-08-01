@@ -12,4 +12,4 @@ yarn dev
 ```
 
 # Link to test deploy, please enter from a mobile or resize screen, mobile first in progress
-https://matchain-platform.netlify.app/
+https://extraordinary-buttercream-fe0cc4.netlify.app/
