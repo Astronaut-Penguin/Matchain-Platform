@@ -1,4 +1,7 @@
 import "../styles/globals.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "../styles/swiper-bundle.min.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 

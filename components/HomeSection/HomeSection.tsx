@@ -2,19 +2,17 @@
 import React from "react";
 
 // IMPORT STYLES
-import styles from "./Home.module.css";
-
-// IMPORT IMAGE
-import Slide1 from "./assets/slide1.png";
-import Slide2 from "./assets/slide2.png";
-import Character from "./assets/character.gif";
-import Texture from "./assets/texture.png";
+import styles from "./HomeSection.module.css";
 
 // IMPORT COMPONENT
 import BlueButton from "../../components/BlueButton/BlueButton";
 
 //Next image
 import Image from "next/image";
+
+// IMPORT SWIPER
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
 
 type HomeProps = {
   style?: React.CSSProperties;
@@ -24,10 +22,7 @@ const HomeSection: React.FC<HomeProps> = () => {
   ////////////
   // RENDER //
   ////////////
-  return (
-    <>
-    </>
-  );
+  return <></>;
 };
 
 export default HomeSection;
