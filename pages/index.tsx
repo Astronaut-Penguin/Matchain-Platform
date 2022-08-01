@@ -1,7 +1,16 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { Header , HomeSection , Midpage, Education, Roadmap, About, Team,Footer} from "../components";
+import {
+  Header,
+  HomeSection,
+  Midpage,
+  Education,
+  Roadmap,
+  About,
+  Team,
+  Footer,
+} from "../components";
 
 import styles from "../styles/Home.module.css";
 import "@egjs/react-flicking/dist/flicking.css";
@@ -14,29 +23,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section>
+      <main>
         <Header />
         <HomeSection />
-        <Midpage />
-        <Education />
-        <Roadmap />
-        <About />
-        <Team />
-        <Footer />
-      </section>
+      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://astronautpenguin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Astronaut
-          <span className={styles.logo}>
-            <Image src="/logo192.png" alt="Ap Logo" width={16} height={18} />
-          </span>
-        </a>
+      {/*
+      <footer>
+         <Footer/>
       </footer>
+    */}
     </div>
   );
 };

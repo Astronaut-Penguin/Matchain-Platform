@@ -20,38 +20,12 @@
 /* 	VIEWS  */
 /***********/
 
-/* MEDIUM MOBILE */
-
-@media only screen and (min-width: 375px) and (max-width: 424px) {
-  .mySwiper {
-    height: 25.625rem;
-  }
-}
-
-/* LARGE MOBILE */
-
-@media only screen and (min-width: 425px) and (max-width: 550px) {
-  .mySwiper {
-    height: 30rem;
-  }
-}
-
 /* /////////////// */
 /*      TABLET     */
 /* /////////////// */
 
-@media only screen and (min-width: 550px) and (max-width: 1024px) {
+@media only screen and (min-width: 550px) {
   .mySwiper {
-    height: 100%;
-  }
-}
-
-/* /////////////// */
-/*        PC     */
-/* /////////////// */
-
-@media only screen and (min-width: 1024px) {
-  .mySwiper {
-    height: 50rem;
+    height: 40rem;
   }
 }

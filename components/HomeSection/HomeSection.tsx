@@ -43,6 +43,7 @@ const HomeSection: React.FC<HomeProps> = () => {
           />
           <Image
             src={"/assets/Home/texture.png"}
+            height="50%"
             layout="fill"
             className={styles.Texture}
           />
