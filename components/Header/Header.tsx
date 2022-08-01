@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = () => {
           <Image src="/logo.svg" width={120} height={60} />
         </div>
         <div className={styles.Profile}>
-          <Image src="/logo512.png" width={60} height={60} />
+          <Image src="/ProfilePic.png" width={60} height={60} />
         </div>
       </div>
       <div className={styles.NavContainer}>

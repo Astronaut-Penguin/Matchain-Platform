@@ -36,37 +36,38 @@ const HomeSection: React.FC<HomeProps> = () => {
         className="mySwiper"
       >
         <SwiperSlide className={styles.Slide}>
-          <Image
-            src={"/assets/Home/slide2.png"}
-            layout="fill"
-            className={styles.Image2}
-          />
-          <Image
-            src={"/assets/Home/texture.png"}
-            height="50%"
-            layout="fill"
-            className={styles.Texture}
-          />
+          <div className={styles.Image2}>
+            <Image src={"/assets/Home/slide2.png"} layout="fill" />
+          </div>
           <h2 className={styles.Start}>
             START YOUR <b>OWN GAME</b> NOW
           </h2>
           <div className={styles.Learn}>
             <BlueButton text={"LEARN NOW"} />
           </div>
+          <div className={styles.Texture}>
+            <Image
+              src={"/assets/Home/texture.png"}
+              width="100%"
+              height="30%"
+              layout="responsive"
+            />
+          </div>
         </SwiperSlide>
 
         <SwiperSlide className={styles.Slide}>
-          <Image
-            src={"/assets/Home/slide1.png"}
-            layout="fill"
-            className={styles.Image}
-          />
+          <div className={styles.Image}>
+            <Image src={"/assets/Home/slide1.png"} layout="fill" />
+          </div>
           <h2 className={styles.Title}>WORKAHOLIC</h2>
-          <Image
-            src={"/assets/Home/character.gif"}
-            layout="fill"
-            className={styles.Character}
-          />
+          <div className={styles.Character}>
+            <Image
+              src={"/assets/Home/character.gif"}
+              width="100%"
+              height="100%"
+              layout="responsive"
+            />
+          </div>
           <div className={styles.Play}>
             <BlueButton text={"PLAY NOW"} />
           </div>

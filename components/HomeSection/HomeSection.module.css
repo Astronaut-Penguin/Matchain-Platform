@@ -4,41 +4,79 @@
 
 /* MOBILE */
 .Container {
-  margin-top: 2rem;
-
+  z-index: 0;
   background-color: #e6e6e6;
 }
 
 .Slide {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Image {
+  /* Position */
+  z-index: 0;
 }
 
 .Image2 {
+  /* Position */
+  z-index: 0;
 }
 
 .Texture {
+  /* Position */
+  z-index: 1;
 }
 
 .Start {
+  /* Position */
   position: relative;
-  margin: 50%;
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  /*Visual*/
+  font-family: "Russo One";
+  font-style: normal;
+  color: #ffffff;
 }
 
 .Start > b {
-}
+  font-size: 2.1rem;
+  line-height: 4rem;
 
-.Character {
-}
-
-.Title {
-}
-
-.Play {
+  color: #00e1ff;
 }
 
 .Learn {
+  z-index: 2;
+  position: relative;
+}
+
+.Character {
+  z-index: 2;
+}
+
+.Title {
+  /* Position */
+  position: relative;
+  z-index: 1;
+  /* Display */
+  margin: 0 0 5% 0;
+  /*Visual*/
+  font-family: "VT323";
+  font-style: normal;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.Play {
+  position: relative;
+  z-index: 1;
 }
 
 .Telegram {
@@ -51,12 +89,11 @@
 /*      TABLET     */
 /* /////////////// */
 
-@media only screen and (min-width: 550px) and (max-width: 1024px) {
-}
-
-/* /////////////// */
-/*      TABLET     */
-/* /////////////// */
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 550px) {
+  .Start {
+    /* Position */
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
 }
