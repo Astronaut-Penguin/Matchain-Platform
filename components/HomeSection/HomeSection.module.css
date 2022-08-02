@@ -5,7 +5,6 @@
 /* MOBILE */
 .Container {
   z-index: 0;
-  background-color: #e6e6e6;
 }
 
 .Slide1 {
@@ -52,8 +51,9 @@
 }
 
 .Slide2 {
-  display: inline-block;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 .Image2 {
@@ -76,9 +76,7 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  float: right;
   align-items: center;
-  margin-top: 15%;
   margin-right: 5%;
 }
 
@@ -88,18 +86,20 @@
   z-index: 1;
 
   /* Display */
-
+  margin: 3%;
   /*Visual*/
   font-family: "VT323";
   font-style: normal;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: #ffffff;
 }
 
 .Play {
   position: relative;
-
   z-index: 1;
+
+  /*Display*/
+  width: 80%;
 }
 
 .Telegram {
