@@ -36,15 +36,12 @@ const HomeSection: React.FC<HomeProps> = () => {
         className="mySwiper"
       >
         <SwiperSlide className={styles.Slide2}>
-          <div className={styles.Image}>
-            <Image src={"/assets/Home/slide1.png"} layout="fill" />
-          </div>
           <div className={styles.Character}>
             <Image
-              src={"/assets/Home/character.gif"}
-              width="300%"
-              height="300%"
-              layout="responsive"
+              src={"/assets/Home/video.gif"}
+              width="1024"
+              height="720"
+              layout="fixed"
             />
           </div>
           <div className={styles.Subcontainer}>
