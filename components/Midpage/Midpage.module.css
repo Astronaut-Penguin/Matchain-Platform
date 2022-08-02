@@ -1,0 +1,63 @@
+/***********/
+/* 	VIEWS  */
+/***********/
+
+/* MOBILE */
+
+.Container {
+  display: inline-block;
+}
+
+.Subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GameTitle {
+  /* Display */
+  margin: 2% 0 0 0;
+
+  /* Visual */
+  font-family: "VT323";
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  color: #27343c;
+
+  z-index: 1;
+}
+
+.Newgame {
+  position: relative;
+  /* Display */
+  width: 7em;
+  transform: rotate(-6.66deg);
+  bottom: 1.2rem;
+  margin: 0;
+  /* Visual */
+  text-align: center;
+  font-family: "Russo One";
+  font-style: normal;
+  font-size: 0.7rem;
+
+  color: #27343c;
+  border: 0.1rem #00e1ff;
+  border-radius: 0.2rem;
+  background-color: #00e1ff;
+
+  z-index: 2;
+}
+
+.Description {
+  /* Display */
+  margin-top: 0.5em;
+
+  /* Visual */
+  text-align: center;
+  font-family: "Russo One";
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #27343c;
+}

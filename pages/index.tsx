@@ -26,6 +26,7 @@ const Home: NextPage = () => {
       <main>
         <Header />
         <HomeSection />
+        <Midpage />
       </main>
 
       {/*

@@ -35,26 +35,6 @@ const HomeSection: React.FC<HomeProps> = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className={styles.Slide1}>
-          <div className={styles.Image2}>
-            <Image src={"/assets/Home/slide2.png"} layout="fill" />
-          </div>
-          <h2 className={styles.Start}>
-            START YOUR <b>OWN GAME</b> NOW
-          </h2>
-          <div className={styles.Learn}>
-            <BlueButton text={"LEARN NOW"} />
-          </div>
-          <div className={styles.Texture}>
-            <Image
-              src={"/assets/Home/texture.png"}
-              width="100%"
-              height="30%"
-              layout="responsive"
-            />
-          </div>
-        </SwiperSlide>
-
         <SwiperSlide className={styles.Slide2}>
           <div className={styles.Image}>
             <Image src={"/assets/Home/slide1.png"} layout="fill" />
@@ -72,6 +52,25 @@ const HomeSection: React.FC<HomeProps> = () => {
             <div className={styles.Play}>
               <BlueButton text={"PLAY NOW"} />
             </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className={styles.Slide1}>
+          <div className={styles.Image2}>
+            <Image src={"/assets/Home/slide2.png"} layout="fill" />
+          </div>
+          <h2 className={styles.Start}>
+            START YOUR <b>OWN GAME</b> NOW
+          </h2>
+          <div className={styles.Learn}>
+            <BlueButton text={"LEARN NOW"} />
+          </div>
+          <div className={styles.Texture}>
+            <Image
+              src={"/assets/Home/texture.png"}
+              width="100%"
+              height="30%"
+              layout="responsive"
+            />
           </div>
         </SwiperSlide>
       </Swiper>
