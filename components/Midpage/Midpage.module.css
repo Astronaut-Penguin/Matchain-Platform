@@ -66,3 +66,23 @@
   line-height: 1.5em;
   color: #27343c;
 }
+
+/* /////////////// */
+/*      TABLET - PC     */
+/* /////////////// */
+
+@media only screen and (min-width: 550px) {
+  .GameTitle {
+    /* Visual */
+    font-size: 6rem;
+  }
+
+  .Newgame {
+    /* Visual */
+    font-size: 1.4rem;
+  }
+  .Description {
+    /* Visual */
+    font-size: 2rem;
+  }
+}

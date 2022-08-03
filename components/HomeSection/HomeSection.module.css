@@ -123,4 +123,18 @@
 /* /////////////// */
 
 @media only screen and (min-width: 550px) {
+  .Title {
+    /* Visual */
+    font-size: 5.2rem;
+  }
+
+  .Start {
+    /* Visual */
+    font-size: 3rem;
+  }
+
+  .Start > b {
+    /* Display */
+    font-size: 4.2rem;
+  }
 }
