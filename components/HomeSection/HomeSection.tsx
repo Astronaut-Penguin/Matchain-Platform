@@ -36,30 +36,32 @@ const HomeSection: React.FC<HomeProps> = () => {
         className="mySwiper"
       >
         <SwiperSlide className={styles.Slide2}>
-          <div className={styles.Character}>
-            <Image
-              src={"/assets/Home/video.gif"}
-              width="1024"
-              height="720"
-              layout="fixed"
-            />
-          </div>
-          <div className={styles.Subcontainer}>
+          <div className={styles.Subcontainer2}>
             <h2 className={styles.Title}>WORKAHOLIC</h2>
             <div className={styles.Play}>
               <BlueButton text={"PLAY NOW"} />
             </div>
           </div>
+          <div className={styles.Character}>
+            <Image src={"/assets/Home/Video.gif"} layout="fill" />
+          </div>
         </SwiperSlide>
         <SwiperSlide className={styles.Slide1}>
           <div className={styles.Image2}>
-            <Image src={"/assets/Home/slide2.png"} layout="fill" />
+            <Image
+              src={"/assets/Home/slide2.png"}
+              width="100%"
+              height="100%"
+              layout="responsive"
+            />
           </div>
-          <h2 className={styles.Start}>
-            START YOUR <b>OWN GAME</b> NOW
-          </h2>
-          <div className={styles.Learn}>
-            <BlueButton text={"LEARN NOW"} />
+          <div className={styles.Subcontainer1}>
+            <h2 className={styles.Start}>
+              START YOUR <b>OWN GAME</b> NOW
+            </h2>
+            <div className={styles.Learn}>
+              <BlueButton text={"LEARN NOW"} />
+            </div>
           </div>
           <div className={styles.Texture}>
             <Image

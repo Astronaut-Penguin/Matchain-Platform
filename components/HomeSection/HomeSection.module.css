@@ -4,76 +4,93 @@
 
 /* MOBILE */
 .Container {
-  z-index: 0;
 }
 
 .Slide1 {
+}
+
+.Image2 {
+  /* Position */
+  z-index: 0;
+  height: 100%;
+}
+
+.Subcontainer1 {
+  /* Position */
+  position: relative;
+  z-index: 2;
+  /* Display */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.Image2 {
-  /* Position */
-  z-index: 0;
-}
-
-.Texture {
-  /* Position */
-  z-index: 1;
+  height: 100%;
+  bottom: 100%;
 }
 
 .Start {
   /* Position */
   position: relative;
+  z-index: 2;
   /* Display */
   display: flex;
   flex-direction: column;
   text-align: center;
 
-  /*Visual*/
+  /* Visual */
   font-family: "Russo One";
   font-style: normal;
   color: #ffffff;
 }
 
 .Start > b {
+  /* Display */
   font-size: 2.1rem;
   line-height: 4rem;
-
   color: #00e1ff;
 }
 
 .Learn {
-  z-index: 2;
+  /* Position */
   position: relative;
+  z-index: 2;
+}
+
+.Texture {
+  /* Position */
+  position: absolute;
+  z-index: 1;
+
+  /* Display */
+  width: 100%;
+  bottom: 0;
 }
 
 .Slide2 {
-  display: flex;
-  align-items: center;
-  justify-content: right;
+  /* Display */
+  overflow: hidden;
 }
 
 .Character {
   /* Position */
   position: relative;
-  /* Display */
   z-index: 1;
-  width: 100%;
+  /* Display */
   height: 100%;
-
-  bottom: 15%;
+  width: 100%;
 }
 
-.Subcontainer {
-  position: relative;
-  z-index: 1;
+.Subcontainer2 {
+  /* Position */
+  position: absolute;
+  z-index: 2;
+  /* Display */
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-right: 5%;
-  margin-top: 25%;
+  width: 100%;
+  height: 50%;
 }
 
 .Title {
@@ -82,8 +99,7 @@
   z-index: 2;
 
   /* Display */
-  margin: 3%;
-  /*Visual*/
+  /* Visual */
   font-family: "VT323";
   font-style: normal;
   font-size: 2.6rem;
@@ -93,9 +109,7 @@
 .Play {
   position: relative;
   z-index: 2;
-
   /*Display*/
-  width: 80%;
 }
 
 .Telegram {
@@ -105,14 +119,8 @@
 }
 
 /* /////////////// */
-/*      TABLET     */
+/*      TABLET - PC     */
 /* /////////////// */
 
 @media only screen and (min-width: 550px) {
-  .Start {
-    /* Position */
-    position: relative;
-    width: 100%;
-    display: inline-block;
-  }
 }
