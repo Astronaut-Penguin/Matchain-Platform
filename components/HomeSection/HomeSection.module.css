@@ -18,6 +18,8 @@
   position: relative;
   z-index: 1;
   /* Display */
+  display: flex;
+  flex-direction: column;
 }
 
 .Subcontainer1 {
@@ -64,7 +66,8 @@
   z-index: 0;
 
   /* Display */
-  bottom: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .Subcontainer2 {
@@ -138,12 +141,6 @@
     font-size: 5.2rem;
   }
 
-  .Play {
-    /*Display*/
-    width: 25%;
-    height: 10%;
-  }
-
   .Start {
     /* Visual */
     font-size: 3rem;
@@ -153,12 +150,6 @@
     /* Display */
     font-size: 4.2rem;
   }
-
-  .Learn {
-    /*Display*/
-    width: 25%;
-    height: 10%;
-  }
 }
 
 /* /////////////// */
@@ -166,30 +157,28 @@
 /* /////////////// */
 
 @media only screen and (min-width: 1024px) {
-  .Title {
-    /* Visual */
-    font-size: 10rem;
+  .Image1 {
+    max-height: 100vh;
   }
 
-  .Play {
-    /*Display*/
-    width: 25%;
-    height: 10%;
+  .Title {
+    /* Visual */
+    font-size: 7rem;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .Image2 {
+    max-height: 100vh;
   }
 
   .Start {
     /* Visual */
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .Start > b {
     /* Display */
-    font-size: 8rem;
-  }
-
-  .Learn {
-    /*Display*/
-    width: 25%;
-    height: 10%;
+    font-size: 6rem;
   }
 }
