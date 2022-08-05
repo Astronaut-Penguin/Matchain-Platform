@@ -2,6 +2,7 @@
 
 .Container {
   height: 100%;
+  width: 100%;
   min-width: 6.25rem;
   background: #00e1ff;
   border: 0.4375rem solid #00e1ff;

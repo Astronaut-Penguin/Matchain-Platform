@@ -35,18 +35,23 @@ const HomeSection: React.FC<HomeProps> = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide className={styles.Slide2}>
-          <div className={styles.Subcontainer2}>
+        <SwiperSlide className={styles.Slide1}>
+          <div className={styles.Subcontainer1}>
             <h2 className={styles.Title}>WORKAHOLIC</h2>
             <div className={styles.Play}>
               <BlueButton text={"PLAY NOW"} />
             </div>
           </div>
-          <div className={styles.Character}>
-            <Image src={"/assets/Home/Video.gif"} layout="fill" />
+          <div className={styles.Image1}>
+            <Image
+              src={"/assets/Home/Video.gif"}
+              width="100%"
+              height="100%"
+              layout="responsive"
+            />
           </div>
         </SwiperSlide>
-        <SwiperSlide className={styles.Slide1}>
+        <SwiperSlide className={styles.Slide2}>
           <div className={styles.Image2}>
             <Image
               src={"/assets/Home/slide2.png"}
@@ -55,7 +60,7 @@ const HomeSection: React.FC<HomeProps> = () => {
               layout="responsive"
             />
           </div>
-          <div className={styles.Subcontainer1}>
+          <div className={styles.Subcontainer2}>
             <h2 className={styles.Start}>
               START YOUR <b>OWN GAME</b> NOW
             </h2>

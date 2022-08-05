@@ -7,80 +7,20 @@
 }
 
 .Slide1 {
+  /* Display */
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
 }
 
-.Image2 {
+.Image1 {
   /* Position */
-  z-index: 0;
-  height: 100%;
+  position: relative;
+  z-index: 1;
+  /* Display */
 }
 
 .Subcontainer1 {
-  /* Position */
-  position: relative;
-  z-index: 2;
-  /* Display */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  bottom: 100%;
-}
-
-.Start {
-  /* Position */
-  position: relative;
-  z-index: 2;
-  /* Display */
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  /* Visual */
-  font-family: "Russo One";
-  font-style: normal;
-  color: #ffffff;
-}
-
-.Start > b {
-  /* Display */
-  font-size: 2.1rem;
-  line-height: 4rem;
-  color: #00e1ff;
-}
-
-.Learn {
-  /* Position */
-  position: relative;
-  z-index: 2;
-}
-
-.Texture {
-  /* Position */
-  position: absolute;
-  z-index: 1;
-
-  /* Display */
-  width: 100%;
-  bottom: 0;
-}
-
-.Slide2 {
-  /* Display */
-  overflow: hidden;
-}
-
-.Character {
-  /* Position */
-  position: relative;
-  z-index: 1;
-  /* Display */
-  height: 100%;
-  width: 100%;
-}
-
-.Subcontainer2 {
   /* Position */
   position: absolute;
   z-index: 2;
@@ -112,6 +52,76 @@
   /*Display*/
 }
 
+.Slide2 {
+  /* Display */
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+}
+
+.Image2 {
+  /* Position */
+  z-index: 0;
+
+  /* Display */
+  bottom: 0;
+}
+
+.Subcontainer2 {
+  /* Position */
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Start {
+  /* Position */
+  position: relative;
+  z-index: 2;
+
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  /* Visual */
+  font-family: "Russo One";
+  font-style: normal;
+  color: #ffffff;
+}
+
+.Start > b {
+  /* Display */
+  font-size: 2.1rem;
+  line-height: 4rem;
+  color: #00e1ff;
+}
+
+.Learn {
+  /* Position */
+  position: relative;
+  z-index: 2;
+}
+
+.Texture {
+  /* Position */
+  position: absolute;
+  z-index: 1;
+
+  /* Display */
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+}
+
 .Telegram {
 }
 
@@ -119,13 +129,19 @@
 }
 
 /* /////////////// */
-/*      TABLET - PC     */
+/*      TABLET     */
 /* /////////////// */
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 550px) and (max-width: 1024px) {
   .Title {
     /* Visual */
     font-size: 5.2rem;
+  }
+
+  .Play {
+    /*Display*/
+    width: 25%;
+    height: 10%;
   }
 
   .Start {
@@ -136,5 +152,44 @@
   .Start > b {
     /* Display */
     font-size: 4.2rem;
+  }
+
+  .Learn {
+    /*Display*/
+    width: 25%;
+    height: 10%;
+  }
+}
+
+/* /////////////// */
+/*      PC     */
+/* /////////////// */
+
+@media only screen and (min-width: 1024px) {
+  .Title {
+    /* Visual */
+    font-size: 10rem;
+  }
+
+  .Play {
+    /*Display*/
+    width: 25%;
+    height: 10%;
+  }
+
+  .Start {
+    /* Visual */
+    font-size: 6rem;
+  }
+
+  .Start > b {
+    /* Display */
+    font-size: 8rem;
+  }
+
+  .Learn {
+    /*Display*/
+    width: 25%;
+    height: 10%;
   }
 }
